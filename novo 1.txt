@@ -1,0 +1,25 @@
+
+
+
+
+  I - Pesquisa de Berkeley sockets; 
+  
+ II - Apresentação de uma sistema distribuído Usando conceitos de Berkeley sockets:
+	a - Ser sistema;
+	b - Ter módulos;
+	c - Comunicação de  Módulos na implementação do sistema.
+
+III - Cliente/servidor na mesma máquina.
+
+Obs: sistema distribúido fracamente acoplado. 
+
+Referências:
+
+https://www.dei.isep.ipp.pt/~asc/doc/sockets-berkeley.html
+
+https://www.google.com/search?q=socket+berkeley&rlz=1C1NHXL_pt-BRBR728BR729&sxsrf=AOaemvLeU63IOIQfGdMm-ScvwXftG5uk-w:1630846236447&tbm=isch&source=iu&ictx=1&fir=K5SBTfRm_OyjUM%252CBwG_0z7h1TpSCM%252C_&vet=1&usg=AI4_-kRiYuHcIpFE4vF1tHCDPlINqToh-Q&sa=X&ved=2ahUKEwiO1uzU7-fyAhV_ppUCHXxLC6cQ_h16BAg8EAE#imgrc=5g5yCSUvkjciHM
+
+https://medium.com/@urapython.community/introdu%C3%A7%C3%A3o-a-sockets-em-python-44d3d55c60d0
+
+
+

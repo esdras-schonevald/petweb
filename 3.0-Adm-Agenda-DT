@@ -1,0 +1,22 @@
+.wallcolor {
+	background-color: #F29100;
+}
+
+.rectangle_2 {
+	
+	position: relative;
+	width: 50px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	background-color: #F29100;
+}
+
+body{
+	display: flex;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+}

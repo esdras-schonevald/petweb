@@ -1,0 +1,278 @@
+.wallcolor {
+	background-color: #F29100;
+}
+
+@media only screen and (max-width: 768px) {
+	.rectangle_1{
+		margin: auto;
+		width: 512px;
+		height: 559px;
+		background: #FFFFFF;
+		box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25), -16px -16px 16px rgba(255, 255, 255, 0.25);
+		border-radius: 16px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.rectangle_1{
+		margin: auto;
+		width: 940px;
+		height: 559px;
+		background: #FFFFFF;
+		box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25), -16px -16px 16px rgba(255, 255, 255, 0.25);
+		border-radius: 16px;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.rectangle_1{
+		margin: auto;
+		width: 1025px;
+		height: 604px;
+		background: #FFFFFF;
+		box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25), -16px -16px 16px rgba(255, 255, 255, 0.25);
+		border-radius: 16px;
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.rectangle_1{
+		margin: auto;
+		width: 1280px;
+		height: 725px;
+		background: #FFFFFF;
+		box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.25), -16px -16px 16px rgba(255, 255, 255, 0.25);
+		border-radius: 16px;
+	}
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+body{
+	display: flex;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #fff;
+}
+
+.calendar_extrato {
+	
+	position: relative;
+	width: 100%;
+	height: 50%;
+	left: 0%;
+	top: 0px;
+	background: #fff;
+	border: 10px outset #fff;
+}
+.calendar_agenda {
+	background-image: url("calendar.png");
+	position: relative;
+	repeat: no-repeat;
+	width: 90%;
+	height: 50%;
+	left: 0%
+}
+
+.container{
+	position: absolute;
+	width: 4%;
+	height: 100%;
+	top:0%;
+	border:5px solid #001;
+	float: left;
+	
+}
+
+.container2{
+	position: absolute;
+	width:25%;
+	height : 86%;
+	left: 5%;
+	top:14%;
+	bottom: 0px;
+	border: 5px #f0f dotted;
+	float:left;
+	background-color: #0ac611;
+}
+.container4{
+	position: absolute;
+	width:100%;
+	height : 30%;
+	left: 5%;
+	top:14%;
+	bottom: 0px;
+	border: 5px #f0f dotted;
+	float:left;
+	background-color: #0ac611;
+}
+
+.receitas{
+	
+	top: 0px;
+	background-image: url("receitas.png");
+	background-repeat: no-repeat;
+}
+
+.container3{
+	
+	position: relative;
+	width:70%;
+	top: 14%;
+	left: 30%;
+	height: 98.5%;
+	border: 0px transparent #fff ;
+	float: left;
+	
+}
+
+.contas{
+	position: relative;
+	width: 85%;
+	height: 50%;
+	left: 5%;
+	border: 10px transparent #fff;
+}
+
+.pets_cadastrados{
+	top: 0px;
+	float: left;
+	background-image: url("pets_cadastrados.png");
+	background-repeat: no-repeat;
+}
+
+
+.vendas_on_line{
+	top: 0px;
+	float: left;
+	background-image: url("vendas_on_line_chart.png");
+	background-repeat: no-repeat;
+}
+
+h1{
+	background-color: #ff0;
+	text-align: center;
+}
+
+.header{
+	position: absolute;
+	width: 100%;
+	height: 8.33%;
+	top:0%;
+	left:5%;
+	border: 5px dashed #f00;
+	float:left;
+	background-color: #ff0;
+	background-image: url("header.png");
+	background-repeat: no-repeat;
+	
+}
+.header2{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	background-color: #f29100;
+	text-align: justify;
+
+}
+
+.input_hour{
+	position: relative;
+	right: 0%;
+	bottom:0%;
+	background: #EEEEEE transparent;
+	box-shadow: 0px -4px 10px rgba(255, 255, 255, 0.25), 0px 4px 10px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	height: 10%;
+	margin: 10px;
+	border:5px;
+	right:0px;
+}
+
+p{
+	position: absolute;
+	left: 9%;
+	top: 13.2%;
+	font-family: 'Patua One';
+	font-style: normal;
+	font-weight: 10px;
+	font-size: 20px;
+	line-height: 10px;
+	color: #CCCCCC;
+}
+
+.menu_side_small{
+	position: relative;
+	width: 8.33%;
+	height: 120%;
+	top:0%;
+	border:5px solid #00f;
+	float: left;
+	background-image: url("menu_lateral_pq.png");
+	background-repeat: no-repeat;
+
+}
+
+.menu_side_expand{
+	position: absolute;
+	width: 25%;
+	height: 50%;
+	top: 0%;
+	background-image: url("menu_side_expand.png");
+
+}
+
+.rectangle_2 {
+	
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	top: 0px;
+	background-color: #F29100;
+}
+
+.saldo{
+	position: relative;
+	width: 100%;
+	height: 35%;
+	left: 0%;
+	top: 0px;
+	border: 5px outset #fff;
+	background-image: #25AB53 url("saldo_disponivel.png");
+	background-repeat: no-repeat;
+
+}
+
+.triangulo{
+	position: relative;
+	width:100%;
+	top: 100%; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid  #F29100 ; 
+	
+}
+
+.triangulo2{
+	position: relative;
+	width:10%;
+	top: 0%; 
+	border-top: 55px solid transparent;
+	border-bottom: 55px solid transparent;
+	border-left: 110px solid  #25AB53;
+	margin-left: 0.1%;
+	float:left;
+}
+
+.texto{
+	float: right;
+}
+
+
