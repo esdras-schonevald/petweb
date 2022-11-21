@@ -1,0 +1,28 @@
+/** general **/
+[ class *= inp-icon- ]
+{
+    background-repeat: no-repeat;
+    background-position-x: 3em;
+    background-position-y: center;
+}
+
+/** classes **/
+.inp-icon-person
+{
+    background-image: url(/assets/img/icon_person.png);
+}
+
+.inp-icon-phone
+{
+    background-image: url(/assets/img/icon_phone.png);
+}
+
+.inp-icon-env-closed
+{
+    background-image: url(/assets/img/icon_envelope_closed.png);
+}
+
+.inp-icon-key
+{
+    background-image: url(/assets/img/icon_key.png);
+}
